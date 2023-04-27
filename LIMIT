@@ -1,0 +1,19 @@
+-- LIMIT:==> Limit says, how many Rows do you want
+
+
+-- It Limit the Number of Row
+
+---------------------------------
+
+SELECT * FROM Customers
+LIMIT 3;
+
+-----------------------------------------
+
+--  Limit 5 ⇒ Means It will give 5 Rows
+
+select * from payment
+order by payment_date asc   -- OR  DESC for Descending
+LIMIT 5;
+
+
